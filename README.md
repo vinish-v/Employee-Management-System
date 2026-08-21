@@ -122,7 +122,7 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### Authentication
 - `POST /api/auth/signup` - Register a new employee account
