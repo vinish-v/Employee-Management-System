@@ -1,0 +1,92 @@
+@import "../Client/Leave.css";
+@import "../Client/Attendance.css";
+
+.employee-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    margin: -30px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.employee-header h1 {
+    color: #ff4800ff;
+    font-family: 'Garmond', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+
+.search-bar-container {
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 450px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: 1px solid #ff5e00;
+    font-family: inherit;
+    font-size: 0.95rem;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(255, 94, 0, 0.08);
+}
+
+.role-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.role-badge.admin {
+    background-color: #f6ffed;
+    color: #389e0d;
+    border: 1px solid #b7eb8f;
+}
+
+.role-badge.client {
+    background-color: #e6f7ff;
+    color: #1890ff;
+    border: 1px solid #91d5ff;
+}
+
+.edit-btn-sm {
+    background-color: #ff5e00;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.edit-btn-sm:hover {
+    background-color: #e05300;
+}
+
+.delete-btn-sm {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.delete-btn-sm:hover {
+    background-color: #d9363e;
+}

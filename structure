@@ -1,0 +1,126 @@
+employee-management-system/
+│
+├── client/
+│   │
+│   ├── src/
+│   │   │
+│   │   ├── assets/
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   ├── EmployeeCard.jsx
+│   │   │   ├── EmployeeTable.jsx
+│   │   │   ├── Loading.jsx
+│   │   │   └── Modal.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   │
+│   │   │   ├── public/
+│   │   │   │   ├── Home.jsx
+│   │   │   │   ├── Login.jsx
+│   │   │   │   ├── Signup.jsx
+│   │   │   │   ├── ForgotPassword.jsx
+│   │   │   │   └── ResetPassword.jsx
+│   │   │   │
+│   │   │   ├── admin/
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   ├── Employees.jsx
+│   │   │   │   ├── AddEmployee.jsx
+│   │   │   │   ├── EmployeeDetails.jsx
+│   │   │   │   ├── EditEmployee.jsx
+│   │   │   │   ├── Departments.jsx
+│   │   │   │   ├── Attendance.jsx
+│   │   │   │   ├── LeaveRequests.jsx
+│   │   │   │   ├── Users.jsx
+│   │   │   │   ├── Notifications.jsx
+│   │   │   │   └── Profile.jsx
+│   │   │   │
+│   │   │   └── client/
+│   │   │       ├── Dashboard.jsx
+│   │   │       ├── Profile.jsx
+│   │   │       ├── Attendance.jsx
+│   │   │       ├── Leaves.jsx
+│   │   │       ├── Notifications.jsx
+│   │   │       └── Settings.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   ├── authService.js
+│   │   │   ├── employeeService.js
+│   │   │   ├── leaveService.js
+│   │   │   └── attendanceService.js
+│   │   │
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── hooks/
+│   │   │   └── useAuth.js
+│   │   │
+│   │   ├── layouts/
+│   │   │   ├── AdminLayout.jsx
+│   │   │   └── ClientLayout.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+│
+├── server/
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── employeeController.js
+│   │   ├── departmentController.js
+│   │   ├── attendanceController.js
+│   │   ├── leaveController.js
+│   │   └── userController.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Employee.js
+│   │   ├── Department.js
+│   │   ├── Attendance.js
+│   │   └── Leave.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── employeeRoutes.js
+│   │   ├── departmentRoutes.js
+│   │   ├── attendanceRoutes.js
+│   │   ├── leaveRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   ├── roleMiddleware.js
+│   │   ├── errorMiddleware.js
+│   │   └── uploadMiddleware.js
+│   │
+│   ├── services/
+│   │   ├── authService.js
+│   │   ├── emailService.js
+│   │   └── googleAuthService.js
+│   │
+│   ├── config/
+│   │   ├── db.js
+│   │   └── passport.js
+│   │
+│   ├── utils/
+│   │   ├── generateToken.js
+│   │   └── generateEmployeeId.js
+│   │
+│   ├── app.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── .gitignore
+└── README.md

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+
+.signUpPage {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ffffff 0%, #dc5b10 100%);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+}
+
+.productivity-img {
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.signupBox {
+    background: #FF5E00;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background: linear-gradient(to right, #ffffff, #f1ebeb, #ffffffc2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-size: 0.95rem;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder {
+    color: #000000;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ffffff;
+    background: rgba(255, 247, 247, 0.3);
+    box-shadow: 0 0 0 4px rgba(197, 56, 56, 0.15);
+}
+
+input[type="password"] {
+    color: #000000;
+}
+
+input[type="email"] {
+    color: #000000;
+}
+
+input[type="text"] {
+    color: #000000;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(to right, #d15913, #FF5E00);
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(223, 119, 59, 0.4);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.error-message {
+    background: rgb(204, 20, 20);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.success-message {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: #6ee7b7;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.loginlink {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}

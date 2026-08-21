@@ -1,0 +1,45 @@
+@import "../Client/Dashboard.css";
+@import "../Client/Attendance.css";
+
+.admin-dashboard-page {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-sections-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 2rem;
+}
+
+.approve-btn-sm {
+    background-color: #389e0d;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.approve-btn-sm:hover {
+    background-color: #2b780a;
+}
+
+.reject-btn-sm {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.reject-btn-sm:hover {
+    background-color: #d9363e;
+}

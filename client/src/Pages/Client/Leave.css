@@ -1,0 +1,137 @@
+.leave-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    margin: -30px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leave-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.leave-header h1 {
+    color: #ff4800ff;
+    font-family: 'Garmond', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.apply-leave-btn {
+    background-color: #ff5e00;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 94, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.apply-leave-btn:hover {
+    transform: translateY(-2px);
+    background-color: #e05300;
+}
+
+.leave-stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background-color: #ff5e00;
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.stat-card p {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.leave-history-section {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.leave-history-section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.leave-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leave-table th,
+.leave-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.leave-table th {
+    background-color: #fafafa;
+    color: #666;
+    font-weight: 500;
+}
+
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+
+}
+
+.status-badge.Pending {
+    background-color: #fff7e6;
+    color: #d48806;
+}
+
+.status-badge.Approved {
+    background-color: #f6ffed;
+    color: #389e0d;
+}
+
+.status-badge.Rejected {
+    background-color: #fff1f0;
+    color: #cf1322;
+}
+
+.action-btn {
+    background: none;
+    border: 1px solid #ff4d4f;
+    color: #ff4d4f;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+    background-color: #ff4d4f;
+    color: white;
+}

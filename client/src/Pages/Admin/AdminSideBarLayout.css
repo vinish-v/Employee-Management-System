@@ -1,0 +1,31 @@
+@import "../Client/SideBarLayout.css";
+
+.admin-sidebar {
+    background-color: #2b2d42;
+    color: #ffffff;
+}
+
+.admin-badge {
+    background: linear-gradient(135deg, #ff5e00 0%, #ff8c00 100%);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.admin-sidebar .nav-item {
+    color: #edf2f4;
+}
+
+.admin-sidebar .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.admin-sidebar .nav-item.active {
+    background-color: #ff5e00;
+    color: white;
+}

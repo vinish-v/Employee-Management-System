@@ -1,0 +1,31 @@
+.boxes {
+    display: flex;
+    gap: 24px;
+    padding: 10px 0;
+}
+
+.box {
+    border-radius: 16px;
+    padding: 24px;
+    font-family: 'Poppins', sans-serif;
+    flex-grow: 1;
+    text-align: center;
+    background-color: #ff5e00;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.entire {
+    background-color: #ffffff;
+    min-height: 100vh;
+    margin: -30px;
+    padding: 30px;
+}

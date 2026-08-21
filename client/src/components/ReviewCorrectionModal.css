@@ -1,0 +1,41 @@
+.review-correction-modal {
+    max-width: 520px;
+}
+
+.request-detail {
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #eee;
+}
+
+.request-detail p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.reason-box {
+    background-color: #fff6f0;
+    border-left: 4px solid #ff5e00;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 8px !important;
+    color: #ff4800ff !important;
+}
+
+.reject-modal-btn {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.reject-modal-btn:hover {
+    background-color: #d9363e;
+}

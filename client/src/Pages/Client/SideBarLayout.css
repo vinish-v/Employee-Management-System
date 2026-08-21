@@ -1,0 +1,50 @@
+/* Fills the whole screen */
+.client-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Places Sidebar and Content side-by-side */
+.layout-body {
+    display: flex;
+    flex: 1;
+    /* Takes up all remaining height under the topbar */
+}
+
+/* Fixed width for sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    /* Add your glassmorphism/colors here */
+    padding: 20px;
+}
+
+/* Takes up all the remaining width */
+.content-area {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    /* Adds a scrollbar only to the content if it gets too long */
+}
+
+.nav-item {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #ddd;
+}
+
+/* This class is automatically added by React Router when a link is active */
+.nav-item.active {
+    background-color: #ff5e00;
+    color: white;
+}

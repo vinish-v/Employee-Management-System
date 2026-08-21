@@ -1,0 +1,46 @@
+@import "../Client/Attendance.css";
+
+.admin-attendance-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    margin: -30px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin-attendance-header h1 {
+    color: #ff4800ff;
+    font-family: 'Garmond', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+
+.date-filter {
+    display: flex;
+    align-items: center;
+}
+
+.date-input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ff5e00;
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.clear-date-btn {
+    background-color: #eee;
+    color: #333;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.clear-date-btn:hover {
+    background-color: #ddd;
+}
