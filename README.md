@@ -1,10 +1,10 @@
-# Employee Management System 🚀
+# Employee Management System 
 
 A full-stack web application for managing workforce operations, daily attendance tracking, leave requests, and employee records. Built using Node.js, Express, MongoDB, and React (Vite).
 
 ---
 
-## 🌟 Overview
+## Overview
 
 The Employee Management System features role-based access control with distinct portals for **Employees (Clients)** and **Administrators**:
 
@@ -13,16 +13,16 @@ The Employee Management System features role-based access control with distinct 
 
 ---
 
-## ✨ Features
+##  Features
 
-### 👤 Employee / Client Portal
+### Employee / Client Portal
 * **Dashboard**: Overview of attendance percentage, present days, remaining leaves, and pending leave applications.
 * **Attendance Management**: Real-time Check-In and Check-Out buttons, daily status tracking, and optional attendance correction requests.
 * **Leave Management**: Apply for leaves (Casual, Sick, Earned, Emergency), track real-time application status, and cancel pending requests.
 * **My Profile**: View and edit user details (Phone, Department, Designation, Address).
 * **Settings**: Toggle email/SMS notification preferences, change account password, and logout.
 
-### 🛡️ Admin Portal
+### Admin Portal
 * **Control Center**: Real-time stats on total staff, present staff today, pending leave requests, and attendance correction alerts.
 * **Employee Directory**: Add new employees with temporary passwords, edit existing roles/departments/designations, or delete employee records.
 * **Leave Applications Management**: Filter leaves by status (`All`, `Pending`, `Approved`, `Rejected`), search by employee, and approve or reject applications with automatic leave balance calculation.
@@ -31,7 +31,7 @@ The Employee Management System features role-based access control with distinct 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js, React Router v6, Vite, Vanilla CSS3 (Custom Glassmorphic & Modern Styling), Axios
 - **Backend**: Node.js, Express.js
@@ -40,7 +40,7 @@ The Employee Management System features role-based access control with distinct 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Employee-Management-System/
@@ -70,7 +70,7 @@ Employee-Management-System/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -153,6 +153,3 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License.
